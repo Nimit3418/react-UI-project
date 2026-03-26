@@ -1,9 +1,10 @@
 import React from 'react'
+import img2 from '../../assets/img2.png'
 
 const RightContent2 = () => {
   return (
     <div>
-      <img src="img2.png" alt="" className='heigh-180 w-180' />
+      <img src={img2} alt="img2" className='h-140 w-180' />
     </div>
   )
 }

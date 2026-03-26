@@ -1,5 +1,6 @@
 import React from 'react'
 import { Zap } from 'lucide-react'
+import img1 from '../../assets/img1.png'
 
 const LeftContent2 = () => {
   return (
@@ -9,7 +10,7 @@ const LeftContent2 = () => {
         <Zap size={30} color="#000000" strokeWidth={2} />
         <p className='text-[20px] '>In India MSME contribution to eTailing sales is <br /> expected to grow between 60-70% <br /> annually to reach USD50Bn by FY 2027</p>
       </div>
-      <img src="Gemini_Generated_Image_90k4oc90k4oc90k4__1_-removebg-preview.png" className='h-70' alt="" />
+      <img src={img1} className='h-70' alt="" />
     </div>
   )
 }
